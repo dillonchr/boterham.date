@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  txt:
+    build: .
+    ports:
+      - "7748:80"
