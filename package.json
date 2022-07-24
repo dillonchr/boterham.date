@@ -1,0 +1,25 @@
+{
+  "name": "boterham.date",
+  "version": "1.0.0",
+  "description": "plain text thing",
+  "main": "index.js",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "connect": "^3.7.0",
+    "serve-static": "^1.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillonchr/boterham.date.git"
+  },
+  "author": "@dillonchr",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dillonchr/boterham.date/issues"
+  },
+  "homepage": "https://github.com/dillonchr/boterham.date#readme"
+}

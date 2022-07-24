@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+  boterham:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    restart: on-failure
+    ports:
+      - "9090:3000"
+    volumes:
+      - .:/code/
+      - /code/node_modules/
