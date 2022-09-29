@@ -1,0 +1,23 @@
+Boterham.date - SHELL COMMANDS
+---
+
+sed
+Don't forget how to use sed.
+
+BEFORE git status:
+  ./src/enroll/pdfForm/pacificsourceEft2022.js:5:import { splitPhone } from "e
+  ./src/enroll/pdfForm/pacificsourceEft2022.js:17:ePieces = splitPhone(getStr(di
+  ./src/enroll/pdfForm/orBendChamberEft.js:5:import { splitPhone } from "e
+  ./src/enroll/pdfForm/orBendChamberEft.js:8:beParts = splitPhone(getStr(d,
+  ./src/enroll/pdfForm/kaiserMasterSmall2021.js:8:import { splitPhone as getPho
+  ./src/enroll/pdfForm/kaiserMasterSmall2021.js:203:function* splitPhone(dict: XFD
+  ./src/enroll/pdfForm/kaiserMasterSmall2021.js:232:onType of splitPhone(dict, "rf
+  ./src/enroll/pdfForm/kaiserMasterSmall2021.js:289:    ...splitPhone(dict, "rf
+  ./src/enroll/pdfForm/kaiserMasterSmall2021.js:290:    ...splitPhone(dict, "rf
+
+AFTER git status | sed 's/:.*$//' | uniq
+  ./src/enroll/pdfForm/pacificsourceEft2022.js
+  ./src/enroll/pdfForm/orBendChamberEft.js
+  ./src/enroll/pdfForm/kaiserMasterSmall2021.js
+
+

@@ -1,4 +1,5 @@
 Boterham.date - DEV
 ---
 
+- shellcommands
 - standuptimes
